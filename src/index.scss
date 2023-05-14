@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Main {
+  @apply prose;
+  @apply container h-screen;
+  @apply px-4 pt-6;
+
+  @apply md:mx-auto;
+  @apply md:p-0;
+}
+
+.ContentSection {
+  @apply space-y-4;
+}
+
+.HeaderBox {
+  h1 {
+    @apply text-center;
+    @apply mb-2;
+  }
+  p {
+  }
+}
+
+.FrillyIdentity {
+  @apply font-bold text-pink-500;
+  font-family: "Comic Sans MS", serif;
+}
+
+.Footer {
+  @apply prose;
+  @apply p-10;
+}
