@@ -1,0 +1,21 @@
+{
+  "name": "phonesaredumb.com",
+  "version": "1.0.0",
+  "description": "Phones are dumb. Use email.",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "n"
+  ],
+  "author": "n",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2"
+  }
+}
