@@ -1169,7 +1169,7 @@ img, video {
 
 @media (width >= 768px) {
   .PageContent {
-    max-width: 48rem;
+    max-width: 64rem;
     padding: 1.5rem 0 0;
   }
 }
