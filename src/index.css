@@ -10,7 +10,7 @@
 .PageContent {
   @apply prose;
   @apply px-4 pt-6;
-  @apply md:max-w-5xl;
+  @apply md:max-w-4xl;
   @apply md:p-0 md:pt-6;
 }
 
