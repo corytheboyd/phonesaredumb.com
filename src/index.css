@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.Main {
-  @apply prose;
-  @apply container h-screen;
-  @apply px-4 pt-6;
+.PageContainer {
+  @apply w-screen h-full;
+  @apply flex flex-row justify-center;
+}
 
-  @apply md:mx-auto;
-  @apply md:p-0;
+.PageContent {
+  @apply prose;
+  @apply px-4 pt-6;
+  @apply md:max-w-3xl;
+  @apply md:p-0 md:pt-6;
 }
 
 .ContentSection {
@@ -26,6 +29,6 @@
 }
 
 .Footer {
-  @apply prose;
-  @apply p-10;
+  @apply py-10;
+  @apply text-center;
 }
